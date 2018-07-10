@@ -44,7 +44,8 @@ G_CONF = {
         'log_file': os.path.join(G_BASE_DIR, 'player_{version}.log')
     }
 }
-
+G_SHOW_ACTION_DATA = {}
+G_ROUND_NUMBER = 1
 
 # Logging module config
 logging.basicConfig(
@@ -63,6 +64,77 @@ def mprint(output, log_level=logging.INFO):
     for item in G_LOG_REPLACE:
         output = output.replace(item[0], item[1])
     logging.log(log_level, output)
+
+
+def update_show_action_data(data):
+    '''Update show action data for later analyse.'''
+    global G_SHOW_ACTION_DATA
+    if 'small_blind' not in G_SHOW_ACTION_DATA:
+        G_SHOW_ACTION_DATA.update({
+            'small_blind': data['table']['smallBlind']
+        })
+    if 'big_blind' not in G_SHOW_ACTION_DATA:
+        G_SHOW_ACTION_DATA.update({
+            'big_blind': data['table']['bigBlind']
+        })
+    G_SHOW_ACTION_DATA['board_card'] = data['table']['board']
+    rname = data['table']['roundName']
+    if rname not in G_SHOW_ACTION_DATA:
+        G_SHOW_ACTION_DATA[rname] = {}
+    player = data['action']['playerName']
+    if player not in G_SHOW_ACTION_DATA[rname]:
+        G_SHOW_ACTION_DATA[rname][player] = {
+            'actions': [data['action']],
+            'chips': data['action']['chips']
+        }
+    else:
+        G_SHOW_ACTION_DATA[rname][player]['actions'].append(data['action'])
+        G_SHOW_ACTION_DATA[rname][player]['chips'] = data['action']['chips']
+
+
+def finallize_show_action_data(data):
+    '''
+    Finallize show action data for a full round.
+    e.g.:
+        {
+            "playerName": "6caeba444797a281a0110e0c80ad5814",
+            "chips": 960,
+            "folded": true,
+            "allIn": false,
+            "cards": [
+                "6D",
+                "5S"
+            ],
+            "isSurvive": true,
+            "reloadCount": 0,
+            "roundBet": 0,
+            "bet": 0,
+            "hand": {
+                "cards": [
+                    "6D",
+                    "5S",
+                    "9C",
+                    "AC",
+                    "4S",
+                    "JD",
+                    "TC"
+                ],
+                "rank": 8.0456,
+                "message": "High Card"
+            },
+            "winMoney": 0,
+            "isOnline": true,
+            "isHuman": false
+        }
+    '''
+    global G_ROUND_NUMBER, G_SHOW_ACTION_DATA
+    for player_info in data['players']:
+        G_SHOW_ACTION_DATA[player_info['playerName']] = player_info
+    mprint(json.dumps(G_SHOW_ACTION_DATA))
+    with open('round_{}.json'.format(G_ROUND_NUMBER), 'w') as fp:
+        fp.write(json.dumps(G_SHOW_ACTION_DATA, indent=2))
+    G_ROUND_NUMBER += 1
+    G_SHOW_ACTION_DATA = {}
 
 
 class Player(object):
@@ -149,6 +221,7 @@ class Player(object):
         if event == "__show_action":
             #print "__show_action"
             self.history_list.append(data)
+            update_show_action_data(data)
             self.roundcount = data['table']['roundCount']
             self.basic_info['totalbet']=data['table']['totalBet']
             amount = 0
@@ -387,6 +460,7 @@ class Player(object):
             mprint("Current Seat: %s, Last action diff: %s" % (self.basic_info['cur_seat'], self.basic_info['last_action_diff'])) #ce-jal
         elif event == "__round_end":
             self.history_list.append(data)
+            finallize_show_action_data(data)
             mprint('----- round end -----')
             #print "_______________________ Round End Data ________________________"
             #print data
@@ -550,7 +624,7 @@ class Player(object):
                             decision = self.takeAction(self.eventName, self.game_data, self.basic_info)
                         ws.send(json.dumps(decision))
         except Exception as e:
-            mprint(e)
+            mprint(str(e))
             mprint('Exception traceback: %s' %traceback.format_exc())
             #doListen()
 
