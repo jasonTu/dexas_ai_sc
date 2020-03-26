@@ -1,0 +1,418 @@
+{
+   "dev_ipv4" : "192.168.50.35",
+   "dev_mac" : "90:DD:5D:B5:1F:EE",
+   "hostname" : {
+      "payload" : [
+         {
+            "data" : "",
+            "protocol" : "NETBIOS"
+         },
+         {
+            "data" : "yuu-2",
+            "protocol" : "DNS"
+         },
+         {
+            "data" : "",
+            "protocol" : "SMB"
+         }
+      ]
+   },
+   "mdns" : {
+      "mdns" : [
+         "[\n   {\n      \"dataService\" : \"70-35-60-63.1 游戏室 (2)._sleep-proxy._udp.local\",\n      \"domain\" : \"_sleep-proxy._udp.local\",\n      \"ttl\" : 4500,\n      \"type\" : \"PTR\"\n   },\n   {\n      \"dataTxt\" : [],\n      \"domain\" : \"70-35-60-63.1 游戏室 (2)._sleep-proxy._udp.local\",\n      \"ttl\" : 4500,\n      \"type\" : \"TXT\"\n   },\n   {\n      \"dataSrv\" : \"yuu-2.local\",\n      \"domain\" : \"70-35-60-63.1 游戏室 (2)._sleep-proxy._udp.local\",\n      \"port\" : 60111,\n      \"ttl\" : 120,\n      \"type\" : \"SRV\"\n   },\n   {\n      \"dataA\" : \"192.168.50.35\",\n      \"domain\" : \"yuu-2.local\",\n      \"ttl\" : 120,\n      \"type\" : \"A\"\n   }\n]\n",
+         "[\n   {\n      \"dataService\" : \"_sleep-proxy._udp.local\",\n      \"domain\" : \"_services._dns-sd._udp.local\",\n      \"ttl\" : 4500,\n      \"type\" : \"PTR\"\n   },\n   {\n      \"dataService\" : \"_companion-link._tcp.local\",\n      \"domain\" : \"_services._dns-sd._udp.local\",\n      \"ttl\" : 4500,\n      \"type\" : \"PTR\"\n   },\n   {\n      \"dataService\" : \"_mediaremotetv._tcp.local\",\n      \"domain\" : \"_services._dns-sd._udp.local\",\n      \"ttl\" : 4500,\n      \"type\" : \"PTR\"\n   },\n   {\n      \"dataService\" : \"_homekit._tcp.local\",\n      \"domain\" : \"_services._dns-sd._udp.local\",\n      \"ttl\" : 4500,\n      \"type\" : \"PTR\"\n   }\n]\n",
+         "[\n   {\n      \"dataTxt\" : [ \"si=CCEFA253-12B2-4516-B7AB-802FD5280E3C\" ],\n      \"domain\" : \"D631588C-56FA-5D22-A42F-78AD35FF57F7._homekit._tcp.local\",\n      \"ttl\" : 4500,\n      \"type\" : \"TXT\"\n   }\n]\n",
+         [
+            {
+               "class_index" : 1,
+               "data" : [ "_sleep-proxy._udp.local" ],
+               "domain" : "_services._dns-sd._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "_companion-link._tcp.local" ],
+               "domain" : "_services._dns-sd._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "_mediaremotetv._tcp.local" ],
+               "domain" : "_services._dns-sd._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "_homekit._tcp.local" ],
+               "domain" : "_services._dns-sd._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "_airplay._tcp.local" ],
+               "domain" : "_services._dns-sd._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "_raop._tcp.local" ],
+               "domain" : "_services._dns-sd._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "90DD5DABB76F@游戏室 (2)._raop._tcp.local" ],
+               "domain" : "_raop._tcp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [
+                  "cn=0,1,2,3",
+                  "da=true",
+                  "et=0,3,5",
+                  "ft=0x4A7FFFF7,0x3C155FDE",
+                  "sf=0x644",
+                  "md=0,1,2",
+                  "am=AppleTV6,2",
+                  "pk=1018038a39fe803357ecd3fc88ba0aa5c2c8226eadf1993b17ed98d26fa7eb38",
+                  "tp=UDP",
+                  "vn=65537",
+                  "vs=415.3",
+                  "ov=13.3",
+                  "vv=2"
+               ],
+               "domain" : "90DD5DABB76F@游戏室 (2)._raop._tcp.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 16
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "0XFE8000000000000014E1E5D45AEBD38C" ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 28
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "192.168.50.35" ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "A",
+               "type_index" : 1
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "192.168.50.35" ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "A",
+               "type_index" : 1
+            },
+            {
+               "class_index" : 1,
+               "data" : [
+                  "0XFE8000000000000014E1E5D45AEBD38C",
+                  "da=true",
+                  "et=0,3,5",
+                  "ft=0x4A7FFFF7,0x3C155FDE",
+                  "sf=0x644",
+                  "md=0,1,2",
+                  "am=AppleTV6,2",
+                  "pk=1018038a39fe803357ecd3fc88ba0aa5c2c8226eadf1993b17ed98d26fa7eb38",
+                  "tp=UDP",
+                  "vn=65537",
+                  "vs=415.3",
+                  "ov=13.3",
+                  "vv=2"
+               ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 28
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "192.168.50.35" ],
+               "domain" : "yuu-2.local",
+               "port" : 7000,
+               "ttl" : 10,
+               "type" : "A",
+               "type_index" : 1
+            },
+            {
+               "class_index" : 1,
+               "data" : [
+                  "0XFE8000000000000014E1E5D45AEBD38C",
+                  "da=true",
+                  "et=0,3,5",
+                  "ft=0x4A7FFFF7,0x3C155FDE",
+                  "sf=0x644",
+                  "md=0,1,2",
+                  "am=AppleTV6,2",
+                  "pk=1018038a39fe803357ecd3fc88ba0aa5c2c8226eadf1993b17ed98d26fa7eb38",
+                  "tp=UDP",
+                  "vn=65537",
+                  "vs=415.3",
+                  "ov=13.3",
+                  "vv=2"
+               ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 28
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "192.168.50.35" ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "A",
+               "type_index" : 1
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "192.168.50.35" ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "A",
+               "type_index" : 1
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "192.168.50.35" ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "A",
+               "type_index" : 1
+            }
+         ],
+         [
+            {
+               "class_index" : 1,
+               "data" : [ "192.168.50.35" ],
+               "domain" : "yuu-2.local",
+               "ttl" : 10,
+               "type" : "A",
+               "type_index" : 1
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "si=CCEFA253-12B2-4516-B7AB-802FD5280E3C" ],
+               "domain" : "D631588C-56FA-5D22-A42F-78AD35FF57F7._homekit._tcp.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 16
+            },
+            {
+               "class_index" : 1,
+               "data" : [
+                  "ModelName=Apple TV",
+                  "AllowPairing=YES",
+                  "BluetoothAddress=��]��",
+                  "macAddress=90:dd:5d:ab:b7:6f",
+                  "Name=游戏室 (2)",
+                  "UniqueIdentifier=CA7EAE36-35F8-47F7-9858-03E5BE0B93CA",
+                  "SystemBuildVersion=17K449",
+                  "LocalAirPlayReceiverPairingIdentity=01F810CB-EC43-4051-8D4C-AEF2DA904D3E"
+               ],
+               "domain" : "游戏室 (2)._mediaremotetv._tcp.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 16
+            },
+            {
+               "class_index" : 1,
+               "data" : [
+                  "rpHN=0430324e430a",
+                  "rpFl=0x36782",
+                  "rpMd=AppleTV6,2",
+                  "rpHA=fc637d26e730",
+                  "rpVr=192.1",
+                  "rpAD=484623fcffaf",
+                  "rpHI=10ab2b237bf5",
+                  "rpBA=84:AF:09:FB:40:64"
+               ],
+               "domain" : "游戏室 (2)._companion-link._tcp.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 16
+            },
+            {
+               "class_index" : 1,
+               "data" : [
+                  "cn=0,1,2,3",
+                  "da=true",
+                  "et=0,3,5",
+                  "ft=0x4A7FFFF7,0x3C155FDE",
+                  "sf=0x644",
+                  "md=0,1,2",
+                  "am=AppleTV6,2",
+                  "pk=1018038a39fe803357ecd3fc88ba0aa5c2c8226eadf1993b17ed98d26fa7eb38",
+                  "tp=UDP",
+                  "vn=65537",
+                  "vs=415.3",
+                  "ov=13.3",
+                  "vv=2"
+               ],
+               "domain" : "90DD5DABB76F@游戏室 (2)._raop._tcp.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 16
+            },
+            {
+               "class_index" : 1,
+               "data" : [
+                  "acl=0",
+                  "btaddr=90:DD:5D:AC:E2:9C",
+                  "deviceid=90:DD:5D:AB:B7:6F",
+                  "features=0x4A7FFFF7,0x3C155FDE",
+                  "flags=0x644",
+                  "gid=69EE7B8F-411C-45AA-BDED-CCEC1D914ADC",
+                  "igl=1",
+                  "gcgl=1",
+                  "model=AppleTV6,2",
+                  "protovers=1.1",
+                  "pi=0e16148c-5d76-49c2-b4ea-69beab7e831f",
+                  "psi=01F810CB-EC43-4051-8D4C-AEF2DA904D3E",
+                  "pk=1018038a39fe803357ecd3fc88ba0aa5c2c8226eadf1993b17ed98d26fa7eb38",
+                  "srcvers=415.3",
+                  "osvers=13.3",
+                  "vv=2"
+               ],
+               "domain" : "游戏室 (2)._airplay._tcp.local",
+               "ttl" : 10,
+               "type" : "TXT",
+               "type_index" : 16
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "70-35-60-63.1 游戏室 (2)._sleep-proxy._udp.local" ],
+               "domain" : "_sleep-proxy._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "90DD5DABB76F@游戏室 (2)._raop._tcp.local" ],
+               "domain" : "_raop._tcp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "D631588C-56FA-5D22-A42F-78AD35FF57F7._homekit._tcp.local" ],
+               "domain" : "_homekit._tcp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "游戏室 (2)._airplay._tcp.local" ],
+               "domain" : "_airplay._tcp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "游戏室 (2)._companion-link._tcp.local" ],
+               "domain" : "_companion-link._tcp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "游戏室 (2)._mediaremotetv._tcp.local" ],
+               "domain" : "_mediaremotetv._tcp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            },
+            {
+               "class_index" : 1,
+               "data" : [ "_sleep-proxy._udp.local" ],
+               "domain" : "_services._dns-sd._udp.local",
+               "ttl" : 10,
+               "type" : "PTR",
+               "type_index" : 12
+            }
+         ]
+      ]
+   },
+   "port" : {
+      "tcp_ports" : {
+         "closed_ports" : [],
+         "opened_ports" : [ 5000, 49152 ],
+         "scanned_ports" : [
+            53,
+            67,
+            68,
+            69,
+            111,
+            123,
+            137,
+            138,
+            161,
+            427,
+            500,
+            1022,
+            1023,
+            1026,
+            1029,
+            1812,
+            1900,
+            3702,
+            4500,
+            5353
+         ]
+      },
+      "udp_ports" : {
+         "closed_ports" : [],
+         "opened_ports" : [ 5353 ],
+         "scanned_ports" : [
+            53,
+            67,
+            68,
+            69,
+            111,
+            123,
+            137,
+            138,
+            161,
+            427,
+            500,
+            1022,
+            1023,
+            1026,
+            1029,
+            1812,
+            1900,
+            3702,
+            4500,
+            5353
+         ]
+      }
+   },
+   "sid" : "aee61b20-6d94-11ea-8153-00900b5da131"
+}
