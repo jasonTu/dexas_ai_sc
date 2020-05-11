@@ -1,0 +1,497 @@
+<results>
+<scan_result>
+<mac>00:50:56:89:9D:D0</mac>
+<result version="1.0">
+<isc X-Client-Id="CE-32483-1585658928" X-Correlation-Id="0d42789a-7339-11ea-8dd2-005056898ec9" X-License-Key="" X-Pid="UTMMVSM07" X-Platform="linux" X-Sdk-Ver="1.0.8" X-Session-Id="4C88E2C2-B48B-4B82-8416-1F05E17D86A3" X-Target-Mac="7eb0b78e1f603774bb80ddc0ea9186cf45bb086d" X-Vid="" />
+<nmaprun scanner="nmap" args="nmap -oX - -d --datadir /var/vtm/tmp/isc_scan/workpath/1.0.394/script -sTU -pT:7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869,U:69,1900,9999 --script isc-main -n -d --max-retries 3 --host-timeout 1800s --script-timeout 600s --open --script-args host=diamond,scan_type=quick_scan,isc_retry=1,isc_timeout=2500,region=jp,quality=low,path=/var/vtm/tmp/isc_scan/workpath/1.0.394/script,permission=root,userdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/u.txt,passdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/p.txt,event_id=4C88E2C2-B48B-4B82-8416-1F05E17D86A3,server_type=prod,scan_vector=LAN,debug_level=40 10.1.1.17" start="1585658929" startstr="Tue Mar 31 20:48:49 2020" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="112" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869" />
+<scaninfo type="udp" protocol="udp" numservices="3" services="69,1900,9999" />
+<verbose level="2" />
+<debugging level="2" />
+<taskbegin task="NSE" time="1585658929" />
+<taskend task="NSE" time="1585658929" />
+<taskbegin task="ARP Ping Scan" time="1585658929" />
+<taskend task="ARP Ping Scan" time="1585658929" extrainfo="1 total hosts" />
+<taskbegin task="NSE" time="1585658929" />
+<taskend task="NSE" time="1585658929" />
+<runstats>
+<finished time="1585658929" timestr="Tue Mar 31 20:48:49 2020" elapsed="0.42" summary="Nmap done at Tue Mar 31 20:48:49 2020; 1 IP address (0 hosts up) scanned in 0.42 seconds" exit="success" />
+<hosts up="0" down="1" total="1" />
+</runstats>
+</nmaprun>
+</result>
+</scan_result>
+<scan_result>
+<mac>00:30:70:84:F3:D1</mac>
+<result version="1.0">
+<isc X-Client-Id="CE-32483-1585658928" X-Correlation-Id="0d42789a-7339-11ea-8dd2-005056898ec9" X-License-Key="" X-Pid="UTMMVSM07" X-Platform="linux" X-Sdk-Ver="1.0.8" X-Session-Id="82665ABB-869A-4C4F-9794-F640CE2A7239" X-Target-Mac="232c4b7bed67e473bc47ada8a3552a3492209a6d" X-Vid="" />
+<nmaprun scanner="nmap" args="nmap -oX - -d --datadir /var/vtm/tmp/isc_scan/workpath/1.0.394/script -sTU -pT:7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869,U:69,1900,9999 --script isc-main -n -d --max-retries 3 --host-timeout 1800s --script-timeout 600s --open --script-args host=diamond,scan_type=quick_scan,isc_retry=1,isc_timeout=2500,region=jp,quality=low,path=/var/vtm/tmp/isc_scan/workpath/1.0.394/script,permission=root,userdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/u.txt,passdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/p.txt,event_id=82665ABB-869A-4C4F-9794-F640CE2A7239,server_type=prod,scan_vector=LAN,debug_level=40 10.1.1.16" start="1585658929" startstr="Tue Mar 31 20:48:49 2020" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="112" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869" />
+<scaninfo type="udp" protocol="udp" numservices="3" services="69,1900,9999" />
+<verbose level="2" />
+<debugging level="2" />
+<taskbegin task="NSE" time="1585658929" />
+<taskend task="NSE" time="1585658929" />
+<taskbegin task="ARP Ping Scan" time="1585658929" />
+<taskend task="ARP Ping Scan" time="1585658929" extrainfo="1 total hosts" />
+<taskbegin task="UDP Scan" time="1585658929" />
+<taskend task="UDP Scan" time="1585658931" extrainfo="3 total ports" />
+<taskbegin task="Connect Scan" time="1585658931" />
+<taskend task="Connect Scan" time="1585658932" extrainfo="112 total ports" />
+<taskbegin task="NSE" time="1585658932" />
+<isc_log_level_info>
+<isc_debug>identd.state:open port:135 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:49155 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:465 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:110 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:445 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_WANNACRY_MS17-010 time: 1585658932</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:49152 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:49154 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:993 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:3389 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_BLUEKEEP_CVE-2019-0708</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:587 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:995 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:49157 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:5357 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:139 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_WANNACRY_MS17-010 time: 1585658932</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:49153 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:143 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:25 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:49156 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open|filtered port:1900 port.state:open|filtered port.protocol:udp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>vulnerability_for_upnp_port</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>end YM_WANNACRY_MS17-010 time: 1585658933</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_SAMBACRY_CVE-2017-7494</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>end YM_WANNACRY_MS17-010 time: 1585658933</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_SAMBACRY_CVE-2017-7494</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>end YM_BLUEKEEP_CVE-2019-0708</isc_debug>
+</isc_log_level_info>
+<taskend task="NSE" time="1585658937" />
+<host starttime="1585658929" endtime="1585658937">
+<status state="up" reason="arp-response" reason_ttl="0" />
+<address addr="10.1.1.16" addrtype="ipv4" />
+<address addr="232c4b7bed67e473bc47ada8a3552a3492209a6d" addrtype="mac" vendor="1Net" />
+<hostnames />
+<ports>
+<extraports state="closed" count="96">
+<extrareasons reason="conn-refused" count="94" />
+<extrareasons reason="port-unreaches" count="2" />
+</extraports>
+<port protocol="tcp" portid="25">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="110">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="135">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="139">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;,&#x0A;  &quot;YM_WANNACRY_MS17-010&quot;:{&#x0A;    &quot;is_vuln&quot;:false,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;info&quot;:{&#x0A;      &quot;spend_time&quot;:&quot;1s&quot;&#x0A;    },&#x0A;    &quot;cvss&quot;:9.3,&#x0A;    &quot;error_msg&quot;:&quot;&quot;&#x0A;  },&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;YM_SAMBACRY_CVE-2017-7494&quot;:{&#x0A;    &quot;is_vuln&quot;:false,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;info&quot;:[],&#x0A;    &quot;cvss&quot;:10.0,&#x0A;    &quot;error_msg&quot;:&quot;&quot;&#x0A;  },&#x0A;  &quot;error_code&quot;:0&#x0A;}' />
+</port>
+<port protocol="tcp" portid="143">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="445">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;,&#x0A;  &quot;YM_WANNACRY_MS17-010&quot;:{&#x0A;    &quot;is_vuln&quot;:false,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;info&quot;:{&#x0A;      &quot;spend_time&quot;:&quot;1s&quot;&#x0A;    },&#x0A;    &quot;cvss&quot;:9.3,&#x0A;    &quot;error_msg&quot;:&quot;&quot;&#x0A;  },&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;YM_SAMBACRY_CVE-2017-7494&quot;:{&#x0A;    &quot;is_vuln&quot;:false,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;info&quot;:[],&#x0A;    &quot;cvss&quot;:10.0,&#x0A;    &quot;error_msg&quot;:&quot;&quot;&#x0A;  },&#x0A;  &quot;error_code&quot;:0&#x0A;}' />
+</port>
+<port protocol="tcp" portid="465">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="587">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="993">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="995">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="3389">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;YM_BLUEKEEP_CVE-2019-0708&quot;:{&#x0A;    &quot;is_vuln&quot;:true,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;info&quot;:{&#x0A;      &quot;spend_time&quot;:&quot;5s&quot;&#x0A;    },&#x0A;    &quot;cvss&quot;:9.8,&#x0A;    &quot;error_msg&quot;:&quot;&quot;&#x0A;  },&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="5357">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="49152">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="49153">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="49154">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="49155">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="49156">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="49157">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+<port protocol="udp" portid="1900">
+<state state="open|filtered" reason="no-response" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;error_msg&quot;:&quot;&quot;,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;&#x0A;}' />
+</port>
+</ports>
+<times srtt="845682" rttvar="293636" to="2020226" />
+</host>
+<taskbegin task="NSE" time="1585658937" />
+<taskend task="NSE" time="1585658937" />
+<runstats>
+<finished time="1585658937" timestr="Tue Mar 31 20:48:57 2020" elapsed="8.16" summary="Nmap done at Tue Mar 31 20:48:57 2020; 1 IP address (1 host up) scanned in 8.16 seconds" exit="success" />
+<hosts up="1" down="0" total="1" />
+</runstats>
+</nmaprun>
+</result>
+</scan_result>
+<scan_result>
+<mac>24:69:68:DF:F1:C2</mac>
+<result version="1.0">
+<isc X-Client-Id="CE-32483-1585658928" X-Correlation-Id="0d42789a-7339-11ea-8dd2-005056898ec9" X-License-Key="" X-Pid="UTMMVSM07" X-Platform="linux" X-Sdk-Ver="1.0.8" X-Session-Id="27BCE6E6-619E-4BB5-A307-76FF6FB14E54" X-Target-Mac="5d1eb0ec57fd9514fb9e3825769fa3463a91fe1d" X-Vid="" />
+<nmaprun scanner="nmap" args="nmap -oX - -d --datadir /var/vtm/tmp/isc_scan/workpath/1.0.394/script -sTU -pT:7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869,U:69,1900,9999 --script isc-main -n -d --max-retries 3 --host-timeout 1800s --script-timeout 600s --open --script-args host=diamond,scan_type=quick_scan,isc_retry=1,isc_timeout=2500,region=jp,quality=low,path=/var/vtm/tmp/isc_scan/workpath/1.0.394/script,permission=root,userdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/u.txt,passdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/p.txt,event_id=27BCE6E6-619E-4BB5-A307-76FF6FB14E54,server_type=prod,scan_vector=LAN,debug_level=40 10.1.1.10" start="1585658930" startstr="Tue Mar 31 20:48:50 2020" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="112" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869" />
+<scaninfo type="udp" protocol="udp" numservices="3" services="69,1900,9999" />
+<verbose level="2" />
+<debugging level="2" />
+<taskbegin task="NSE" time="1585658930" />
+<taskend task="NSE" time="1585658930" />
+<taskbegin task="ARP Ping Scan" time="1585658930" />
+<taskend task="ARP Ping Scan" time="1585658930" extrainfo="1 total hosts" />
+<taskbegin task="UDP Scan" time="1585658930" />
+<taskend task="UDP Scan" time="1585658930" extrainfo="3 total ports" />
+<taskbegin task="Connect Scan" time="1585658930" />
+<taskend task="Connect Scan" time="1585658930" extrainfo="112 total ports" />
+<taskbegin task="NSE" time="1585658930" />
+<isc_log_level_info>
+<isc_debug>identd.state:open port:22 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_IOT_SSH_BRUTE</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:111 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>end YM_IOT_SSH_BRUTE</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_SSH_CVE-2018-10933</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>end YM_SSH_CVE-2018-10933</isc_debug>
+</isc_log_level_info>
+<taskend task="NSE" time="1585658939" />
+<host starttime="1585658930" endtime="1585658939">
+<status state="up" reason="arp-response" reason_ttl="0" />
+<address addr="10.1.1.10" addrtype="ipv4" />
+<address addr="5d1eb0ec57fd9514fb9e3825769fa3463a91fe1d" addrtype="mac" vendor="Tp-link Technologies" />
+<hostnames />
+<ports>
+<extraports state="closed" count="113">
+<extrareasons reason="conn-refused" count="110" />
+<extrareasons reason="port-unreaches" count="3" />
+</extraports>
+<port protocol="tcp" portid="22">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;,&#x0A;  &quot;YM_SSH_CVE-2018-10933&quot;:{&#x0A;    &quot;is_vuln&quot;:false,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;cvss&quot;:9.1,&#x0A;    &quot;info&quot;:{&#x0A;      &quot;spend_time&quot;:&quot;0s&quot;&#x0A;    },&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;error_msg&quot;:&quot;&quot;&#x0A;  },&#x0A;  &quot;YM_IOT_SSH_BRUTE&quot;:{&#x0A;    &quot;is_vuln&quot;:true,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;cvss&quot;:7.5,&#x0A;    &quot;info&quot;:{&#x0A;      &quot;username&quot;:&quot;root&quot;,&#x0A;      &quot;spend_time&quot;:&quot;9s&quot;,&#x0A;      &quot;password&quot;:&quot;040b0127&quot;&#x0A;    },&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;error_msg&quot;:&quot;&quot;&#x0A;  },&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;error_msg&quot;:&quot;&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="111">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;,&#x0A;  &quot;error_msg&quot;:&quot;&quot;&#x0A;}' />
+</port>
+</ports>
+<times srtt="232" rttvar="121" to="100000" />
+</host>
+<taskbegin task="NSE" time="1585658939" />
+<taskend task="NSE" time="1585658939" />
+<runstats>
+<finished time="1585658939" timestr="Tue Mar 31 20:48:59 2020" elapsed="9.38" summary="Nmap done at Tue Mar 31 20:48:59 2020; 1 IP address (1 host up) scanned in 9.38 seconds" exit="success" />
+<hosts up="1" down="0" total="1" />
+</runstats>
+</nmaprun>
+</result>
+</scan_result>
+<scan_result>
+<mac>24:69:68:DF:F1:C2</mac>
+<result version="1.0">
+<isc X-Client-Id="CE-32483-1585658928" X-Correlation-Id="0d42789a-7339-11ea-8dd2-005056898ec9" X-License-Key="" X-Pid="UTMMVSM07" X-Platform="linux" X-Sdk-Ver="1.0.8" X-Session-Id="61604B69-B20A-41E7-B3F9-9BC2F98A3C1F" X-Target-Mac="f75cc07b277c585305330cdcf24d31f7c99d5710" X-Vid="" />
+<nmaprun scanner="nmap" args="nmap -oX - -d --datadir /var/vtm/tmp/isc_scan/workpath/1.0.394/script -sTU -pT:7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869,U:69,1900,9999 --script isc-main -n -d --max-retries 3 --host-timeout 1800s --script-timeout 600s --open --script-args host=diamond,scan_type=quick_scan,isc_retry=1,isc_timeout=2500,region=jp,quality=low,path=/var/vtm/tmp/isc_scan/workpath/1.0.394/script,permission=root,userdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/u.txt,passdb=/var/vtm/tmp/isc_scan/workpath/1.0.394/script/data/p.txt,event_id=61604B69-B20A-41E7-B3F9-9BC2F98A3C1F,server_type=prod,scan_vector=LAN,debug_level=40 10.1.1.10" start="1585658929" startstr="Tue Mar 31 20:48:49 2020" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="112" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1400,1433,1720,1723,1755,1900,2000-2001,2049,2121,2323,2717,3000,3128,3306,3389,3986,4786,4899,5000,5009,5051,5060,5101,5190,5357,5432,5555,5631,5666,5800,5900,6000-6001,6646,7070,7547,8000,8008-8009,8060,8080-8081,8181,8443,8545,8888,9000,9100,9999-10000,32768,37215,49152-49157,50000,52869" />
+<scaninfo type="udp" protocol="udp" numservices="3" services="69,1900,9999" />
+<verbose level="2" />
+<debugging level="2" />
+<taskbegin task="NSE" time="1585658929" />
+<taskend task="NSE" time="1585658929" />
+<taskbegin task="ARP Ping Scan" time="1585658929" />
+<taskend task="ARP Ping Scan" time="1585658929" extrainfo="1 total hosts" />
+<taskbegin task="UDP Scan" time="1585658929" />
+<taskend task="UDP Scan" time="1585658929" extrainfo="3 total ports" />
+<taskbegin task="Connect Scan" time="1585658929" />
+<taskend task="Connect Scan" time="1585658929" extrainfo="112 total ports" />
+<taskbegin task="NSE" time="1585658929" />
+<isc_log_level_info>
+<isc_debug>identd.state:open port:22 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_IOT_SSH_BRUTE</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>identd.state:open port:111 port.state:open port.protocol:tcp</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>scan_type=quick_scan</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>isc_scan_mgr.start</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>end YM_IOT_SSH_BRUTE</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>start YM_SSH_CVE-2018-10933</isc_debug>
+</isc_log_level_info>
+<isc_log_level_info>
+<isc_debug>end YM_SSH_CVE-2018-10933</isc_debug>
+</isc_log_level_info>
+<taskend task="NSE" time="1585658939" />
+<host starttime="1585658929" endtime="1585658939">
+<status state="up" reason="arp-response" reason_ttl="0" />
+<address addr="10.1.1.10" addrtype="ipv4" />
+<address addr="5d1eb0ec57fd9514fb9e3825769fa3463a91fe1d" addrtype="mac" vendor="Tp-link Technologies" />
+<hostnames />
+<ports>
+<extraports state="closed" count="113">
+<extrareasons reason="conn-refused" count="110" />
+<extrareasons reason="port-unreaches" count="3" />
+</extraports>
+<port protocol="tcp" portid="22">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;YM_SSH_CVE-2018-10933&quot;:{&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;cvss&quot;:9.1,&#x0A;    &quot;error_msg&quot;:&quot;&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;info&quot;:{&#x0A;      &quot;spend_time&quot;:&quot;0s&quot;&#x0A;    },&#x0A;    &quot;is_vuln&quot;:false&#x0A;  },&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;,&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;YM_IOT_SSH_BRUTE&quot;:{&#x0A;    &quot;risk_level&quot;:&quot;high&quot;,&#x0A;    &quot;confidence&quot;:&quot;10&quot;,&#x0A;    &quot;cvss&quot;:7.5,&#x0A;    &quot;error_msg&quot;:&quot;&quot;,&#x0A;    &quot;error_code&quot;:0,&#x0A;    &quot;info&quot;:{&#x0A;      &quot;username&quot;:&quot;root&quot;,&#x0A;      &quot;spend_time&quot;:&quot;10s&quot;,&#x0A;      &quot;password&quot;:&quot;040b0127&quot;&#x0A;    },&#x0A;    &quot;is_vuln&quot;:true&#x0A;  },&#x0A;  &quot;error_msg&quot;:&quot;&quot;&#x0A;}' />
+</port>
+<port protocol="tcp" portid="111">
+<state state="open" reason="syn-ack" reason_ttl="0" />
+<script id="isc-main" output='{&#x0A;  &quot;version&quot;:&quot;1.0.394&quot;,&#x0A;  &quot;error_code&quot;:0,&#x0A;  &quot;scan_type&quot;:&quot;quick_scan&quot;,&#x0A;  &quot;error_msg&quot;:&quot;&quot;&#x0A;}' />
+</port>
+</ports>
+<times srtt="222" rttvar="198" to="100000" />
+</host>
+<taskbegin task="NSE" time="1585658939" />
+<taskend task="NSE" time="1585658939" />
+<runstats>
+<finished time="1585658939" timestr="Tue Mar 31 20:48:59 2020" elapsed="10.33" summary="Nmap done at Tue Mar 31 20:48:59 2020; 1 IP address (1 host up) scanned in 10.33 seconds" exit="success" />
+<hosts up="1" down="0" total="1" />
+</runstats>
+</nmaprun>
+</result>
+</scan_result>
+</results>
